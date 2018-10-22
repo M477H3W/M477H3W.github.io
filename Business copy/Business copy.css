@@ -1,0 +1,216 @@
+
+/* Style EVERYTHING */
+* {
+    box-sizing: border-box;
+    font-family: 'Alegreya SC';
+    color: white;
+}
+
+/* Style the body */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #DA291C;
+    z-index: 1;
+    color: #ffffff;
+    padding-left: 720px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.topnav img {
+    float: right;
+    top: 0;
+    height: 100px;
+    width: 100px;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #696969;
+    border-left: #DA291C 10px solid;
+}
+
+.sidenav p {
+    border: 1px #DA291C solid;
+    border-radius: 15px;
+    height: 100px;
+    width: 180px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 405px;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+.bio {
+    border: #DA291C 4px solid;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    height: 510px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #333;
+    margin-top: 110px;
+}
+.bio img {
+    float: right;
+    top: 237px;
+    right: 250px;
+    position: absolute;
+}
+
+.bio p {
+    max-width: 500px;
+}
+
+.skill {
+    border: #DA291C 4px solid;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    height: 380px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #333;
+}
+
+.skill ul {
+    text-align: left;
+}
+
+.innovate {
+    border: #DA291C 4px solid;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    height: 370px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #333;
+}
+
+.innovate img {
+    height: 100px;
+    width: 100px;
+    float: right;
+    position: absolute;
+    right: 225px;
+}
+
+#img1 {
+    top: 680px;
+}
+
+#img2 {
+    top: 780px;
+}
+
+#img3 {
+    top: 880px;
+}
+
+.innovate p {
+    max-width: 650px;
+}
+
+.cont {
+    border: #DA291C 4px solid;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    padding-right: 0px !important;
+    height: 400px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #333;
+}
+
+#cImg1 {
+    height: 200px;
+    width: 400px;
+    float: right;
+    bottom: 159px;
+    right: 0px;
+    position: relative;
+    border-radius: 0 0 10px 0;
+    filter: opacity(20%);
+}
+
+#cImg2 {
+    height: 180px;
+    width: 310px;
+    position: relative;
+    border-radius: 18px;
+    bottom: 339px;
+    filter: opacity(20%);
+}
+
+.bibCred {
+    border: #DA291C 4px solid;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    height: 820px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #333;
+}
+
+.bibCred ol {
+    text-align: left;
+}
+
+.url {
+    text-decoration: underline;
+    color: blue;
+}
